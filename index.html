@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Funny Ad Quick-Start Builder | Otto Ad Labs</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand-lockup">
+        <img src="assets/otto-ad-labs-logo.png" alt="Otto Ad Labs logo" class="logo" />
+      </div>
+      <div class="topbar-actions">
+        <button id="restartBtn" class="ghost-btn">Start Over</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="builder-panel">
+        <div class="progress-wrap">
+          <div class="progress-label">
+            <span id="stepLabel">Step 1 of 9</span>
+            <span id="progressPercent">11%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+        </div>
+
+        <section id="screen" class="screen"></section>
+
+        <div class="nav-row">
+          <button id="backBtn" class="secondary-btn">Back</button>
+          <button id="nextBtn" class="primary-btn">Next Step</button>
+        </div>
+      </section>
+
+      <aside class="preview-panel">
+        <div class="dexter-card">
+          <img src="assets/dexter-mascot.jpg" alt="Dexter, Otto Ad Labs mascot" class="dexter" />
+          <div>
+            <p class="eyebrow">Meet Dexter</p>
+            <p class="small-copy">Dexter is the Otto Ad Labs creative helper — part ad assistant, part idea machine, and part “please stop posting boring stuff” alarm bell.</p>
+          </div>
+        </div>
+
+        <div class="live-preview">
+          <div class="preview-header">
+            <p class="eyebrow">Live Script Preview</p>
+            <button id="copyPreviewBtn" class="mini-btn">Copy</button>
+          </div>
+          <pre id="previewText">Your custom funny ad script will build here as you answer each step.</pre>
+        </div>
+
+        <div class="note-card">
+          <strong>Important:</strong> This builder is a creative planning tool. It does not guarantee sales, leads, reach, engagement, ad approvals, platform approval, or ad performance.
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <template id="welcomeTemplate">
+    <div class="hero-screen">
+      <span class="badge">No camera required</span>
+      <h1>Build Your Funny Ad Script in Minutes</h1>
+      <p class="lead">Answer a few simple questions and Dexter will help you assemble a custom funny ad concept, scene plan, CTA, caption, and AI prompt.</p>
+      <div class="hero-grid">
+        <div class="mini-feature">10 funny formulas</div>
+        <div class="mini-feature">25 headline hooks</div>
+        <div class="mini-feature">No-camera scenes</div>
+        <div class="mini-feature">Custom script output</div>
+      </div>
+    </div>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
