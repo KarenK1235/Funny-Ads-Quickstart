@@ -39,6 +39,8 @@ body {
   max-height: 74px;
   object-fit: contain;
 }
+.topbar-center { flex: 1; text-align: center; }
+.product-name { font-size: 20px; font-weight: 600; color: #fff; letter-spacing: .04em; }
 
 .layout {
   display: grid;
