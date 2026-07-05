@@ -440,7 +440,7 @@ function renderOutput() {
       <strong>What to do next:</strong> Paste the AI Prompt section into ChatGPT, Claude, or Google Gemini to generate 5 more ad versions instantly. Then take your favorite into Canva, Google Flow, or DaVinci Resolve to create the final ad.
     </div>
     <div class="note-card" style="margin-top:12px;">
-      <strong>Tools to explore:</strong> Canva (design + simple video) &bull; Google Flow (AI video) &bull; DaVinci Resolve (free video editor) &bull; ChatGPT Images (AI visuals) &bull; Adobe Express (design). Check each tool directly for current pricing and availability.
+      <strong>Important:</strong> This AI builder is a creative planning tool. It does not guarantee sales, leads, reach, engagement, ad approvals, platform approval, or ad performance.
     </div>
   `;
   document.getElementById("outputPre").textContent = doc;
